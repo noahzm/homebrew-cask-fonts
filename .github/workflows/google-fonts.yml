@@ -46,7 +46,7 @@ jobs:
 
       - name: Create pull request with updated files
         id: create-pull-request
-        uses: peter-evans/create-pull-request@67df31e08a133c6a77008b89689677067fef169e
+        uses: peter-evans/create-pull-request@171dd555b9ab6b18fa02519fdfacbb8bf671e1b4
         with:
           branch: auto-${{ matrix.mode }}-google-fonts
           commit-message: Update Google Fonts
